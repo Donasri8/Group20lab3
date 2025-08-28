@@ -18,7 +18,7 @@ int main(void) {
             GPIO_PORTF_DATA_R &= ~0x0E;
 
             if (n == 0) {
-                GPIO_PORTF_DATA_R |= 0x02;
+                GPIO_PORTF_DATA_R |= 0x02;	// comment added-GPIO port RED LED
                 n = 1;
             }
             else if (n == 1) {
